@@ -39,13 +39,17 @@ async function ensureDatabase(): Promise<void> {
 
 async function bootstrap(): Promise<void> {
   await ensureDatabase();
-  const app = await NestFactory.create(AppModule, { cors: true });
+  // Фронт ходит через прокси Vite, поэтому чужим сайтам читать ответы API незачем.
+  const app = await NestFactory.create(AppModule, {
+    cors: { origin: /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/ },
+  });
   app.useGlobalPipes(new ValidationPipe({ transform: true, whitelist: true }));
   const config = app.get(ConfigService);
+  const host = config.get<string>('host') ?? '127.0.0.1';
   const port = config.get<number>('port') ?? 3000;
   const database = config.get<{ host: string; port: number; database: string }>('database')!;
-  await app.listen(port);
-  logger.log(`API и WebSocket слушают http://localhost:${port}`);
+  await app.listen(port, host);
+  logger.log(`API и WebSocket слушают http://${host}:${port}`);
   logger.log(`Postgres: ${database.host}:${database.port}/${database.database}`);
 }
 

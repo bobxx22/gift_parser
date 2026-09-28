@@ -9,7 +9,8 @@ services:
       POSTGRES_DB: gifts
       TZ: UTC
     ports:
-      - "5433:5432"
+      # Только localhost: в базе лежит сессия Telegram, а пароль по умолчанию известен.
+      - "127.0.0.1:5433:5432"
     volumes:
       - gift_parser_pgdata:/var/lib/postgresql/data
     healthcheck:

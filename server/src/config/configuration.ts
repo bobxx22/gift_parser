@@ -4,6 +4,7 @@ import { loadProjectEnv } from './load-env';
 
 /** Настройки берём из .env в корне проекта (тот же файл, что читал Python). */
 export interface AppConfig {
+  host: string;
   port: number;
   projectRoot: string;
   imagesDir: string;
@@ -34,6 +35,8 @@ export default (): AppConfig => {
   const apiId = envNumber('API_ID', envNumber('TG_API_ID', 0));
   const apiHash = process.env.API_HASH ?? process.env.TG_API_HASH ?? '';
   return {
+    // API без авторизации управляет входом в Telegram — наружу его не открываем.
+    host: process.env.HOST ?? '127.0.0.1',
     port: envNumber('PORT', 3000),
     projectRoot,
     imagesDir: resolve(projectRoot, 'downloaded_collections'),

@@ -59,6 +59,11 @@ export class ImagesController {
     @Res() response: Response,
   ) {
     const name = decodeURIComponent(file).replace(/\.png$/i, '');
+    // Параметры попадают в путь на диске: не даём выйти из downloaded_collections.
+    if (!/^[A-Za-z0-9_-]+$/.test(short) || /[\\/]|\.\./.test(name)) {
+      response.status(400).json({ message: 'некорректное имя' });
+      return;
+    }
     const path =
       name === '__icon__'
         ? await this.catalog.iconFile(short)
