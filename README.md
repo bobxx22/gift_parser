@@ -1,5 +1,19 @@
 # Gift Price Parser — TypeScript · NestJS · React · WebSocket · PostgreSQL
 
+> **English summary.** A personal tool for finding the real market price of upgraded Telegram gifts
+> (collectible NFTs). Pick a collection (optionally a model, backdrop or symbol) and get the trade
+> history from five marketplaces at once — MRKT, Portals, Fragment, Tonnel and the official Telegram
+> market — with median and outlier-trimmed averages, current floor prices, prices in TON / USDT /
+> Stars, a chart and live updates over WebSocket. A background scanner stores trades in PostgreSQL
+> and surfaces listings priced well below their recent median.
+>
+> **Stack:** NestJS 10 · TypeORM · PostgreSQL · Socket.IO · React 18 · Vite · Recharts ·
+> Telegram MTProto (teleproto). The first version was written in Python/Tkinter and is kept in
+> `legacy-python/` for reference.
+>
+> Built for personal use: the API has no authentication and listens on 127.0.0.1 only.
+> The rest of this README is in Russian.
+
 Поиск **реальной цены** апгрейд-подарка Telegram: выбираешь коллекцию (и модель/фон/символ) —
 получаешь историю сделок сразу с пяти площадок, медиану, средние без выбросов, текущие флоры,
 цену в TON, USDT и звёздах, график с карточкой подарка и живые обновления по WebSocket.
