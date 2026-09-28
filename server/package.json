@@ -1,0 +1,43 @@
+{
+  "name": "gift-parser-server",
+  "version": "2.0.0",
+  "description": "NestJS backend: цены подарков Telegram с MRKT, Portals, Fragment, Tonnel и официального маркета",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "dev": "node --watch-path=./src -r ts-node/register/transpile-only src/main.ts",
+    "seed": "node -r ts-node/register/transpile-only src/scripts/seed.ts",
+    "import-session": "node --experimental-sqlite -r ts-node/register/transpile-only src/scripts/import-telethon-session.ts",
+    "check": "node -r ts-node/register/transpile-only src/scripts/check-markets.ts",
+    "profile": "node -r ts-node/register/transpile-only src/scripts/profile-markets.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.15",
+    "@nestjs/config": "^3.3.0",
+    "@nestjs/core": "^10.4.15",
+    "@nestjs/platform-express": "^10.4.15",
+    "@nestjs/platform-socket.io": "^10.4.15",
+    "@nestjs/schedule": "^4.1.2",
+    "@nestjs/serve-static": "^4.0.2",
+    "@nestjs/typeorm": "^10.0.2",
+    "@nestjs/websockets": "^10.4.15",
+    "axios": "^1.7.9",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "pg": "^8.13.1",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "socket.io": "^4.8.1",
+    "teleproto": "^1.229.0",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

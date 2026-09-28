@@ -1,0 +1,642 @@
+{
+ "Amber": {
+  "center": 14332741,
+  "edge": 11632682,
+  "pattern": 8007936,
+  "text": 16772551,
+  "id": 21,
+  "rarity_permille": 15
+ },
+ "Aquamarine": {
+  "center": 6336917,
+  "edge": 4631476,
+  "pattern": 221031,
+  "text": 13106686,
+  "id": 11,
+  "rarity_permille": 15
+ },
+ "Azure Blue": {
+  "center": 6140363,
+  "edge": 4492203,
+  "pattern": 151668,
+  "text": 11922687,
+  "id": 9,
+  "rarity_permille": 10
+ },
+ "Battleship Grey": {
+  "center": 9211013,
+  "edge": 7105638,
+  "pattern": 2828832,
+  "text": 13618884,
+  "id": 50,
+  "rarity_permille": 20
+ },
+ "Black": {
+  "center": 3553080,
+  "edge": 921359,
+  "pattern": 7104616,
+  "text": 9211793,
+  "id": 0,
+  "rarity_permille": 20
+ },
+ "Burgundy": {
+  "center": 10706534,
+  "edge": 7160138,
+  "pattern": 3408647,
+  "text": 15187136,
+  "id": 46,
+  "rarity_permille": 15
+ },
+ "Burnt Sienna": {
+  "center": 14053180,
+  "edge": 11881261,
+  "pattern": 7014658,
+  "text": 16764080,
+  "id": 76,
+  "rarity_permille": 12
+ },
+ "Camo Green": {
+  "center": 7705677,
+  "edge": 5534529,
+  "pattern": 1455873,
+  "text": 13625529,
+  "id": 67,
+  "rarity_permille": 10
+ },
+ "Cappuccino": {
+  "center": 11636862,
+  "edge": 8151894,
+  "pattern": 4862502,
+  "text": 15455432,
+  "id": 39,
+  "rarity_permille": 20
+ },
+ "Caramel": {
+  "center": 13670706,
+  "edge": 12022833,
+  "pattern": 8205824,
+  "text": 16767411,
+  "id": 22,
+  "rarity_permille": 10
+ },
+ "Carmine": {
+  "center": 14702410,
+  "edge": 11024443,
+  "pattern": 5177600,
+  "text": 16758701,
+  "id": 77,
+  "rarity_permille": 10
+ },
+ "Carrot Juice": {
+  "center": 14391399,
+  "edge": 13070159,
+  "pattern": 9314560,
+  "text": 16766922,
+  "id": 24,
+  "rarity_permille": 15
+ },
+ "Celtic Blue": {
+  "center": 4569325,
+  "edge": 3704537,
+  "pattern": 16005,
+  "text": 12773375,
+  "id": 74,
+  "rarity_permille": 15
+ },
+ "Chestnut": {
+  "center": 12480340,
+  "edge": 10045496,
+  "pattern": 6296840,
+  "text": 16697017,
+  "id": 58,
+  "rarity_permille": 20
+ },
+ "Chocolate": {
+  "center": 10776152,
+  "edge": 7619643,
+  "pattern": 4065794,
+  "text": 14988972,
+  "id": 59,
+  "rarity_permille": 10
+ },
+ "Cobalt Blue": {
+  "center": 6326479,
+  "edge": 5333688,
+  "pattern": 1254524,
+  "text": 12768245,
+  "id": 53,
+  "rarity_permille": 10
+ },
+ "Copper": {
+  "center": 13665878,
+  "edge": 10315057,
+  "pattern": 6301953,
+  "text": 16046270,
+  "id": 57,
+  "rarity_permille": 20
+ },
+ "Coral Red": {
+  "center": 14322027,
+  "edge": 12870991,
+  "pattern": 8983040,
+  "text": 16767442,
+  "id": 25,
+  "rarity_permille": 15
+ },
+ "Cyberpunk": {
+  "center": 8753139,
+  "edge": 8806355,
+  "pattern": 4397222,
+  "text": 14735871,
+  "id": 3,
+  "rarity_permille": 15
+ },
+ "Dark Green": {
+  "center": 5333825,
+  "edge": 2835759,
+  "pattern": 1281,
+  "text": 12571049,
+  "id": 63,
+  "rarity_permille": 15
+ },
+ "Dark Lilac": {
+  "center": 11632037,
+  "edge": 9197434,
+  "pattern": 6629458,
+  "text": 15779042,
+  "id": 31,
+  "rarity_permille": 20
+ },
+ "Deep Cyan": {
+  "center": 3257770,
+  "edge": 1611161,
+  "pattern": 20303,
+  "text": 13762557,
+  "id": 70,
+  "rarity_permille": 12
+ },
+ "Desert Sand": {
+  "center": 11771778,
+  "edge": 8287067,
+  "pattern": 5260329,
+  "text": 15918541,
+  "id": 38,
+  "rarity_permille": 20
+ },
+ "Electric Indigo": {
+  "center": 11108595,
+  "edge": 5989080,
+  "pattern": 3613355,
+  "text": 14211327,
+  "id": 4,
+  "rarity_permille": 20
+ },
+ "Electric Purple": {
+  "center": 13267142,
+  "edge": 9855700,
+  "pattern": 6426548,
+  "text": 15453951,
+  "id": 1,
+  "rarity_permille": 15
+ },
+ "Emerald": {
+  "center": 7914885,
+  "edge": 4366705,
+  "pattern": 25906,
+  "text": 12188121,
+  "id": 13,
+  "rarity_permille": 20
+ },
+ "English Violet": {
+  "center": 11634363,
+  "edge": 8870545,
+  "pattern": 5513823,
+  "text": 15124461,
+  "id": 32,
+  "rarity_permille": 15
+ },
+ "Fandango": {
+  "center": 14846646,
+  "edge": 10770571,
+  "pattern": 9307470,
+  "text": 16762859,
+  "id": 30,
+  "rarity_permille": 20
+ },
+ "Feldgrau": {
+  "center": 9015944,
+  "edge": 6187875,
+  "pattern": 1844767,
+  "text": 14608865,
+  "id": 68,
+  "rarity_permille": 10
+ },
+ "Fire Engine": {
+  "center": 15753039,
+  "edge": 12859721,
+  "pattern": 6881289,
+  "text": 16758694,
+  "id": 73,
+  "rarity_permille": 15
+ },
+ "French Blue": {
+  "center": 6069188,
+  "edge": 3634074,
+  "pattern": 473948,
+  "text": 12706809,
+  "id": 54,
+  "rarity_permille": 20
+ },
+ "French Violet": {
+  "center": 12738790,
+  "edge": 9522905,
+  "pattern": 4850058,
+  "text": 15452159,
+  "id": 79,
+  "rarity_permille": 10
+ },
+ "Grape": {
+  "center": 10319041,
+  "edge": 7949728,
+  "pattern": 4065899,
+  "text": 14728702,
+  "id": 52,
+  "rarity_permille": 15
+ },
+ "Gunmetal": {
+  "center": 5004643,
+  "edge": 3095362,
+  "pattern": 264202,
+  "text": 11978188,
+  "id": 69,
+  "rarity_permille": 12
+ },
+ "Gunship Green": {
+  "center": 5605989,
+  "edge": 4023895,
+  "pattern": 468509,
+  "text": 11919572,
+  "id": 62,
+  "rarity_permille": 10
+ },
+ "Hunter Green": {
+  "center": 9416312,
+  "edge": 4948571,
+  "pattern": 1853727,
+  "text": 14218718,
+  "id": 35,
+  "rarity_permille": 15
+ },
+ "Indigo Dye": {
+  "center": 5470609,
+  "edge": 4285561,
+  "pattern": 203561,
+  "text": 12770542,
+  "id": 47,
+  "rarity_permille": 15
+ },
+ "Ivory White": {
+  "center": 12236465,
+  "edge": 10591639,
+  "pattern": 6709074,
+  "text": 16119026,
+  "id": 41,
+  "rarity_permille": 20
+ },
+ "Jade Green": {
+  "center": 5620892,
+  "edge": 3905911,
+  "pattern": 280881,
+  "text": 12517095,
+  "id": 56,
+  "rarity_permille": 15
+ },
+ "Khaki Green": {
+  "center": 11382896,
+  "edge": 7044436,
+  "pattern": 3756059,
+  "text": 13887163,
+  "id": 37,
+  "rarity_permille": 10
+ },
+ "Lavender": {
+  "center": 12028388,
+  "edge": 9067196,
+  "pattern": 5968043,
+  "text": 15258111,
+  "id": 2,
+  "rarity_permille": 20
+ },
+ "Lemongrass": {
+  "center": 11450458,
+  "edge": 5608261,
+  "pattern": 4614663,
+  "text": 14217922,
+  "id": 17,
+  "rarity_permille": 20
+ },
+ "Light Olive": {
+  "center": 12758884,
+  "edge": 8945221,
+  "pattern": 5852164,
+  "text": 16116668,
+  "id": 18,
+  "rarity_permille": 15
+ },
+ "Malachite": {
+  "center": 9811031,
+  "edge": 4036437,
+  "pattern": 289542,
+  "text": 12775358,
+  "id": 15,
+  "rarity_permille": 20
+ },
+ "Marine Blue": {
+  "center": 5138588,
+  "edge": 3885946,
+  "pattern": 67617,
+  "text": 12307442,
+  "id": 60,
+  "rarity_permille": 10
+ },
+ "Mexican Pink": {
+  "center": 14902930,
+  "edge": 13191548,
+  "pattern": 7668272,
+  "text": 16766694,
+  "id": 71,
+  "rarity_permille": 15
+ },
+ "Midnight Blue": {
+  "center": 6056325,
+  "edge": 3489879,
+  "pattern": 199192,
+  "text": 12569824,
+  "id": 48,
+  "rarity_permille": 20
+ },
+ "Mint Green": {
+  "center": 8309634,
+  "edge": 4562522,
+  "pattern": 158498,
+  "text": 12451788,
+  "id": 14,
+  "rarity_permille": 20
+ },
+ "Moonstone": {
+  "center": 8303028,
+  "edge": 5800848,
+  "pattern": 1459538,
+  "text": 14349821,
+  "id": 33,
+  "rarity_permille": 15
+ },
+ "Mustard": {
+  "center": 13932557,
+  "edge": 12875538,
+  "pattern": 8004864,
+  "text": 16768668,
+  "id": 78,
+  "rarity_permille": 10
+ },
+ "Mystic Pearl": {
+  "center": 13667181,
+  "edge": 11556720,
+  "pattern": 10159398,
+  "text": 16702944,
+  "id": 29,
+  "rarity_permille": 20
+ },
+ "Navy Blue": {
+  "center": 7118557,
+  "edge": 6057673,
+  "pattern": 1194402,
+  "text": 13885951,
+  "id": 6,
+  "rarity_permille": 10
+ },
+ "Neon Blue": {
+  "center": 7706361,
+  "edge": 6841060,
+  "pattern": 2631868,
+  "text": 13622783,
+  "id": 5,
+  "rarity_permille": 15
+ },
+ "Old Gold": {
+  "center": 11898168,
+  "edge": 9726245,
+  "pattern": 5190402,
+  "text": 16768396,
+  "id": 75,
+  "rarity_permille": 12
+ },
+ "Onyx Black": {
+  "center": 5067348,
+  "edge": 3225144,
+  "pattern": 0,
+  "text": 11119533,
+  "id": 49,
+  "rarity_permille": 10
+ },
+ "Orange": {
+  "center": 13736506,
+  "edge": 12611399,
+  "pattern": 10303751,
+  "text": 16769475,
+  "id": 23,
+  "rarity_permille": 20
+ },
+ "Pacific Cyan": {
+  "center": 5947046,
+  "edge": 4036026,
+  "pattern": 156813,
+  "text": 11988991,
+  "id": 10,
+  "rarity_permille": 20
+ },
+ "Pacific Green": {
+  "center": 7325587,
+  "edge": 3906692,
+  "pattern": 24905,
+  "text": 13041648,
+  "id": 12,
+  "rarity_permille": 15
+ },
+ "Persimmon": {
+  "center": 15181658,
+  "edge": 12937055,
+  "pattern": 11341312,
+  "text": 16770263,
+  "id": 26,
+  "rarity_permille": 20
+ },
+ "Pine Green": {
+  "center": 7055740,
+  "edge": 4094320,
+  "pattern": 739379,
+  "text": 14218725,
+  "id": 34,
+  "rarity_permille": 15
+ },
+ "Pistachio": {
+  "center": 9941116,
+  "edge": 6062412,
+  "pattern": 2639643,
+  "text": 14283465,
+  "id": 36,
+  "rarity_permille": 15
+ },
+ "Platinum": {
+  "center": 11710119,
+  "edge": 8946814,
+  "pattern": 4012077,
+  "text": 15329250,
+  "id": 42,
+  "rarity_permille": 10
+ },
+ "Pure Gold": {
+  "center": 13413185,
+  "edge": 9993010,
+  "pattern": 7355392,
+  "text": 16770475,
+  "id": 20,
+  "rarity_permille": 20
+ },
+ "Purple": {
+  "center": 11431086,
+  "edge": 8669060,
+  "pattern": 4656199,
+  "text": 15977459,
+  "id": 51,
+  "rarity_permille": 15
+ },
+ "Ranger Green": {
+  "center": 6256713,
+  "edge": 3952443,
+  "pattern": 1057289,
+  "text": 12043445,
+  "id": 66,
+  "rarity_permille": 10
+ },
+ "Raspberry": {
+  "center": 14711685,
+  "edge": 11950464,
+  "pattern": 8980024,
+  "text": 16766694,
+  "id": 28,
+  "rarity_permille": 20
+ },
+ "Rifle Green": {
+  "center": 6580572,
+  "edge": 4936257,
+  "pattern": 987659,
+  "text": 12830653,
+  "id": 65,
+  "rarity_permille": 12
+ },
+ "Roman Silver": {
+  "center": 10725557,
+  "edge": 8159370,
+  "pattern": 4146512,
+  "text": 14344162,
+  "id": 43,
+  "rarity_permille": 20
+ },
+ "Rosewood": {
+  "center": 12024439,
+  "edge": 8473682,
+  "pattern": 5577762,
+  "text": 15583949,
+  "id": 40,
+  "rarity_permille": 10
+ },
+ "Sapphire": {
+  "center": 5809096,
+  "edge": 5470658,
+  "pattern": 869814,
+  "text": 12705535,
+  "id": 7,
+  "rarity_permille": 10
+ },
+ "Satin Gold": {
+  "center": 12557127,
+  "edge": 9271097,
+  "pattern": 6109952,
+  "text": 16704681,
+  "id": 19,
+  "rarity_permille": 20
+ },
+ "Seal Brown": {
+  "center": 6704453,
+  "edge": 4666926,
+  "pattern": 656901,
+  "text": 13941941,
+  "id": 64,
+  "rarity_permille": 12
+ },
+ "Shamrock Green": {
+  "center": 9089379,
+  "edge": 5608261,
+  "pattern": 1207040,
+  "text": 14023624,
+  "id": 16,
+  "rarity_permille": 20
+ },
+ "Silver Blue": {
+  "center": 8430776,
+  "edge": 6323345,
+  "pattern": 1390411,
+  "text": 13231348,
+  "id": 45,
+  "rarity_permille": 20
+ },
+ "Sky Blue": {
+  "center": 5813448,
+  "edge": 5475266,
+  "pattern": 483483,
+  "text": 13494525,
+  "id": 8,
+  "rarity_permille": 20
+ },
+ "Steel Grey": {
+  "center": 9937580,
+  "edge": 6517372,
+  "pattern": 3360082,
+  "text": 14673128,
+  "id": 44,
+  "rarity_permille": 15
+ },
+ "Strawberry": {
+  "center": 14519919,
+  "edge": 12016224,
+  "pattern": 11078668,
+  "text": 16765907,
+  "id": 27,
+  "rarity_permille": 20
+ },
+ "Tactical Pine": {
+  "center": 4489835,
+  "edge": 3105641,
+  "pattern": 9764,
+  "text": 12052179,
+  "id": 61,
+  "rarity_permille": 15
+ },
+ "Tomato": {
+  "center": 15104318,
+  "edge": 13913663,
+  "pattern": 8391424,
+  "text": 16764093,
+  "id": 72,
+  "rarity_permille": 12
+ },
+ "Turquoise": {
+  "center": 6209720,
+  "edge": 4035214,
+  "pattern": 1135436,
+  "text": 12450034,
+  "id": 55,
+  "rarity_permille": 20
+ }
+}

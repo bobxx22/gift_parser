@@ -1,0 +1,15 @@
+.env
+*.session
+*.session-journal
+.cache/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+*.log
+*.csv
+*.tsbuildinfo
+*.bak
+# картинки моделей — сервер докачивает недостающие сам
+downloaded_collections/
+.claude/

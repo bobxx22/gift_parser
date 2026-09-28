@@ -1,0 +1,4 @@
+telethon>=1.44        # 1.44 нужен для официального маркета Telegram (getResaleStarGifts)
+requests>=2.31
+matplotlib>=3.8
+pillow>=10.0

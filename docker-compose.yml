@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: gift_parser_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: gifts
+      POSTGRES_PASSWORD: gifts
+      POSTGRES_DB: gifts
+      TZ: UTC
+    ports:
+      - "5433:5432"
+    volumes:
+      - gift_parser_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gifts -d gifts"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  gift_parser_pgdata:

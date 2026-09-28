@@ -1,0 +1,34 @@
+{
+  "name": "gift-parser",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Цены подарков Telegram: NestJS + React + WebSocket + PostgreSQL",
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "setup": "npm install && npm run db:up && npm run seed && npm run import-session",
+    "dev": "concurrently -n server,web -c cyan,magenta -k \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "npm run dev --workspace server",
+    "dev:web": "npm run dev --workspace web",
+    "start": "npm run start --workspace server",
+    "build": "npm run build --workspace server && npm run build --workspace web",
+    "typecheck": "npm run typecheck --workspace server && npm run typecheck --workspace web",
+    "seed": "npm run seed --workspace server",
+    "import-session": "npm run import-session --workspace server",
+    "check": "npm run check --workspace server",
+    "profile": "npm run profile --workspace server",
+    "doctor": "node scripts/doctor.mjs",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:logs": "docker compose logs -f postgres",
+    "db:psql": "docker exec -it gift_parser_db psql -U gifts -d gifts"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
